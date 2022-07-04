@@ -97,6 +97,10 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
+    transition: all linear 0.3s;
+}
+.btn a:hover{
+    background:linear-gradient(to left,#f78f1e,#e17653);
 }
 /* about section css */
 .about-img, .about-content{
@@ -120,6 +124,10 @@ margin-bottom: 30px;
 .about-btn a {
     padding: 8px 27px;
     background: linear-gradient(45deg, #0067db,skyblue);
+    transition: all linear 0.3s;
+}
+.about-btn a:hover{
+    background: linear-gradient(to right,skyblue,#0067db);
 }
 .img-des{
     margin-top: 20px;
